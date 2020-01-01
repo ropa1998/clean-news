@@ -28,3 +28,13 @@ As of today, Clean News is comprised by three projects:
 - [clean-news-services](https://github.com/ropa1998/clean-news-services): pre-made tools to access articles and trends. This is tested and maintained code. You could arrive to similar results by just using clean-news-core. It is just a set of tools officially maintained.
 - [clean-news-utils](https://github.com/ropa1998/clean-news-utils): utils for different actions you might want to do with your results. As of today it is just a flusher tool that allows you to show the results of the run of your code.
 
+In order to build any project based on this code we recommend the following structure:
+
+![Recommend Strucutre](images/recomended-strucuture.png)
+
+Because we do not have any of our code in repositories you can use in Gradle or Maven in order to use our code you must download it, build it and then compile it in your project.
+
+## License
+
+All of our code is under the [GNU General Public License v3.0](LICENSE)
+
